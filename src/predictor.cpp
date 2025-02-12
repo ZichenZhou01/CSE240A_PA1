@@ -50,8 +50,8 @@ uint32_t global_history;
 uint8_t *bht_gshare;
 uint64_t ghistory;
 
-int ghistoryBits_per = 10;
-int perceptron_power = 12;
+int ghistoryBits_per = 11;
+int perceptron_power = 13;
 int number_perceptron = -1;
 int threshold = -1;
 std::vector< std::vector<int8_t> > perceptron_weights;
